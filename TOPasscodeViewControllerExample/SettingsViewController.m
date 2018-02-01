@@ -152,6 +152,7 @@ TOPasscodeSettingsViewControllerDelegate>
         settingsController.passcodeType = self.passcodeType;
         settingsController.delegate = self;
         settingsController.requireCurrentPasscode = YES;
+        settingsController.enablePasscodeOptions = false;
         [self.navigationController pushViewController:settingsController animated:YES];
     }
     else {

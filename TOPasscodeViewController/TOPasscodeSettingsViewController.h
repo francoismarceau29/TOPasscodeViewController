@@ -85,6 +85,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** Before setting a new passcode, show a UI to validate the existing passcode. (Default is NO) */
 @property (nonatomic, assign) BOOL requireCurrentPasscode;
 
+/** Enable or disable passcode options. (Default is YES) */
+@property (nonatomic, assign) BOOL enablePasscodeOptions;
+
 /** If set, the view controller will disable input until this date time has been reached */
 @property (nonatomic, strong, nullable) NSDate *disabledInputDate;
 
